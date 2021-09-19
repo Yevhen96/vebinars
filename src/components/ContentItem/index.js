@@ -1,4 +1,4 @@
-import './content-item.scss';
+import './ContentItem.scss';
 
 const ContentItem = ({data}) => {
     return (

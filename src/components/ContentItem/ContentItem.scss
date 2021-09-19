@@ -1,12 +1,11 @@
-@import 'src/styles/vars.scss';
-@import 'src/styles/fonts.scss';
+@import '../../assets/styles/vars';
 
 .content-item {
-	padding: $twentyPx;
+	padding: $indent-md;
 	background: #ffffff;
 	border: 1px solid #eeeeee;
 	box-sizing: border-box;
-	box-shadow: $boxShadow;
+	box-shadow: $shadow;
 	border-radius: 10px;
 	margin-bottom: 10px;
 
@@ -15,7 +14,7 @@
 	}
 }
 .content-item-body {
-	margin-bottom: $twentyPx;
+	margin-bottom: $indent-md;
 
 	p {
 		margin: 0;

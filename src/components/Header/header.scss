@@ -1,4 +1,4 @@
-@import 'src/styles/vars.scss';
+@import '../../assets/styles/vars';
 // @import 'src/styles/fonts.scss';
 
 header {
@@ -21,7 +21,7 @@ header {
 		z-index: -1;
 	}
 	h2 {
-		margin: $twentyPx 0;
+		margin: $indent-md 0;
 		text-align: center;
 	}
 }

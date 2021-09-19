@@ -1,8 +1,11 @@
-import './app.scss';
+import { Route, Switch } from 'react-router';
+
 import ContentItem from '../ContentItem';
 import Header from '../Header';
+
 import data from '../mocks/data';
-import { Route, Switch } from 'react-router';
+
+import './App.scss';
 
 function App() {
   
